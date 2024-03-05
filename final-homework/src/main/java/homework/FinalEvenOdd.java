@@ -9,11 +9,11 @@ public class FinalEvenOdd {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Adj meg egy számot:");
-        int szam = scanner.nextInt();
+        int number = scanner.nextInt();
         boolean again = true;
 
 
-        if (szam % 2 == 0 && szam != 0) {
+        if (number % 2 == 0 && number != 0) {
             System.out.println("A szám páros, adj meg még egy számot!");
             again = true;
         } else {
